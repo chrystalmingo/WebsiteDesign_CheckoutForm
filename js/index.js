@@ -1,4 +1,8 @@
-//Come back to figure out this logic
 function sameAddress() {
-    document.getElementById("adrsame").style.display = "none";
+    if (document.getElementById("same-address").checked === true){
+        document.getElementById("adrsame").style.display = "none";
+    }
+    else{
+        document.getElementById("adrsame").style.display = "block";
+    }
 }

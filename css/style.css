@@ -37,8 +37,8 @@ body{
 }
 
 .col-75{
-    -ms-flex: 75%;
-    flex: 75%;
+    -ms-flex: 50%;
+    flex: 50%;
 }
 
 .col-25, .col-50, .col-75{
@@ -109,4 +109,5 @@ span.price{
         margin-bottom: 20px;
     }
 }
+
 
